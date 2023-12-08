@@ -22,6 +22,7 @@ function changeNickname() {
   $('#nickname').text(nickname)
   t=setTimeout("changeNickname()",30000);
 }
+//
 
 function showHome() {
   $('#break').show()
